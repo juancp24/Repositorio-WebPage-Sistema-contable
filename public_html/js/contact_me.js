@@ -35,7 +35,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Su Mensaje Ha sido enviado.Pronto Sera contactado por alguno de nuestros asesores. Gracias</strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
@@ -47,7 +47,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!"));
+                    $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + "tenemos problema en enviar el correo, puedes comunicarte con nosotros por el correo consultoriacontablecolombia@gmail.com "));
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
