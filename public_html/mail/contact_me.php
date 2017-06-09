@@ -19,7 +19,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 $to = 'consultoriacontablecolombia@gmail.com'; 
 $email_subject = "Te ha contactado el Sr(a):  $name con el correo $email_address";
 $email_body = "Informacion de contacto\n"."Nombre: $name\nEmail: $email_address\nPhone: $phone\n\nMessage:\n$message";
-$headers = "From: Contactos consultoria contable\n"; 
+$headers = "From: serviciocontactenos@consultoriacontable.com\n"; 
 $headers .= "Reply-To: $email_address";   
 mail($to,$email_subject,$email_body,$headers);
 return true;         
